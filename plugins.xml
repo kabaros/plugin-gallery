@@ -2264,6 +2264,37 @@
 			<description>Initial release</description>
 		</release>
 	</plugin>
+	<plugin category="blocks" product="testBlock">
+		<name locale="en_US">Test Block Plugin</name>
+		<homepage>https://github.com/NateWr/test-block</homepage>
+		<summary locale="en_US">This is a new test plugin.</summary>
+		<description locale="en_US"><![CDATA[<p>This is a new test plugin.</p>]]></description>
+		<maintainer>
+			<name>Nate Wright</name>
+			<institution>PKP</institution>
+			<email>not@myemail.com</email>
+		</maintainer>
+		<release date="2020-04-20" version="1.0.0.0" md5="84b56e2563506b32b19a6953f49fea11">
+			<package>https://github.com/pkp/textEditorExtras/releases/download/1.0.0.1/textEditorExtras-1.0.0.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Initial release</description>
+		</release>
+	</plugin>
 	<plugin category="blocks" product="announcementsBlock">
 		<name locale="en_US">Announcements Block</name>
 		<homepage>https://github.com/RBoelter/announcementsBlock</homepage>
