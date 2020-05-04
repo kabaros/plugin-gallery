@@ -2241,6 +2241,26 @@
 			<certification type="official"/>
 			<description>This update fixes a bug that prevented image uploads from working in some configurations.</description>
 		</release>
+		<release date="2020-04-20" version="1.0.0.2" md5="84b56e2563a06b32b19a6953f49fea11">
+			<package>https://github.com/pkp/textEditorExtras/releases/download/1.0.0.1/textEditorExtras-1.0.0.1.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.2.0.0</version>
+				<version>3.2.0.1</version>
+				<version>3.2.0.2</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>This update fixes a bug that prevented image uploads from working in some configurations.</description>
+		</release>
 	</plugin>
 	<plugin category="blocks" product="twitterBlock">
 		<name locale="en_US">Twitter Block Plugin</name>
