@@ -2385,4 +2385,22 @@
 			<description>Minor improvements for Portuguese translations.</description>
 		</release>
 	</plugin>
+	<plugin category="themes" product="material">
+		<name locale="en_US">Material</name>
+		<homepage>https://github.com/madi-nuralin/material</homepage>
+		<summary locale="en_US">Material theme for OJS 3.3.0+.</summary>
+		<description locale="en_US"><![CDATA[<p>Material theme for OJS 3.3.0+</p>]]></description>
+		<maintainer>
+			<name>Madi Nuralin</name>
+			<email>nmdbzk@gmail.com</email>
+		</maintainer>
+		<release date="2021-08-24" version="1.0.0.0" md5="697ef170149a25b96c3603f56e0b9dce">
+			<package>https://github.com/madi-nuralin/material/archive/refs/tags/v1.0.0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.7</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Initial release</description>
+		</release>
+	</plugin>
 </plugins>
